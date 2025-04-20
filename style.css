@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Mulish", sans-serif;
+}
+.header{
+    width: 1440px;
+    margin: 0 auto;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 46px 131px;
+}
+.nav ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.nav ul li{
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+.nav ul li:hover{
+    color: red;
+    font-size: 24px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.nav ul li:active{
+    color: blue;
+    font-size: 32px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.heder-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 130px;
+}
+.heder-content_text h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px; 
+}
+.heder-content_text p{
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 32px;
+    color: #7D7987;
+    margin-top: 26px;
+    margin-bottom: 35px;
+
+}
+  
+.heder-content_text button{
+    width: 197px;
+    height: 49px;
+    border-radius: 55px;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #458FF5;
+    color: #fff;
+    border: none;
+}
+.heder-content_text button:hover{
+    border-color: #458ff600;
+    color: #458FF6;
+    transition: all 1s;
+}
+.kamron{
+    width: 1440px;
+    margin: 0 auto;
+}
+    .jonka{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    text-align: center;
+}
+.kama{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+.card{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.carta{
+    width: 380px;
+    height: 380px;
+    border-radius: 20px;
+    border-color: #E7E7E7;
+    padding: 71px 56px 31px 39px;
+
+}
+.carta h3{
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 56px;
+}
+
+.carta p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+
+}
+.carta:hover{
+    background-color: #5A98F2;
+    color: #fff;
+    transition: all 1s;
+}
+.kamron{
+    padding: 0 100px;
+}
+.kota button{
+    width: 197px;
+    height: 49px;
+    border-radius: 55px;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 500px;
+    border: 2px solid #458FF6;
+    color: #458FF6;
+}
+.abu{
+    text-align: center;
+    font-size: 60px;
+}
+.rasmcha h2{
+    display: flex;
+    justify-content: end;
+    padding: 0 100px;
+}
+.rasmcha img{
+    width: 670px
+}
+.rasmcha h4{
+    width: 300px;
+    margin: 0 900px;
+}
+.rasmcha button{
+    width: 197px;
+    height: 49px;
+    border-radius: 55px;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 40px 900px;
+    border: 2px solid #458FF6;
+    color: #458FF6;
+}
+.pol h1{
+    text-align: center;
+    padding: 75px;
+}
+.chumo h2{
+    width: 393px;
+    text-align: center;
+}
+.chumo p{
+    width: 393px;
+    text-align: center;
+}
+.ak{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.arti button{
+    width: 197px;
+    height: 49px;
+    border-radius: 55px;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 40px 200px 500px 500px;
+    border: 2px solid #458FF6;
+    color: #458FF6;
+}
+
+
+
+
+
